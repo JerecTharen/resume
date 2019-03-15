@@ -1,0 +1,123 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: #343E3D;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: #343E3D;
+    /*text-decoration: none;*/
+    font-weight: bold;
+    /*text-wrap: normal;*/
+}
+a:active{
+    color: #343E3D;
+    /*text-decoration: none;*/
+    font-weight: bold;
+}
+a:hover{
+    color: #909595;
+}
+
+#containsAll{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+/*beginning of side panel */
+#sidePanel{
+    padding-left: 2.5%;
+    width: 35%;
+    height: 100%;
+    background-color: #38E4AE;
+    border: solid 2px #7BD389;
+}
+#topInfo{
+    border-bottom: solid 3px #607466;
+    width: 90%;
+}
+#topInfo h2, #topInfo h3{
+    margin: 1% 0;
+}
+#bottomInfo h4, #bottomInfo p, #bottomInfo a,#softSkills h3, #hardSkills h3{
+    margin: 0;
+    /*background-color: black;*/
+}
+#bottomInfo{
+    border-bottom: solid 3px #607466;
+    width: 90%;
+    padding-bottom: 2%;
+}
+.skillBar{
+    height: 15%;
+    /*padding: 2%;*/
+    background-color: #607466;
+    width: 80%;
+    border: solid 3px #607466;
+    margin: 1% 0;
+}
+.skillBar p{
+    margin: 0;
+    font-size: smaller;
+}
+.collaboration{
+    width: 80%;
+}
+.Persistence{
+    width: 70%;
+}
+.selfMotivation{
+    width: 65%;
+}
+.javascript{
+    width: 80%;
+}
+.ionic{
+    width: 75%;
+}
+.html{
+    width: 68%;
+}
+.nodejs{
+    width: 65%;
+}
+.css{
+    width: 60%;
+}
+
+/* beginning of main content */
+#mainContent{
+    padding-left: 2.5%;
+    border-right: solid 2px #7BD389;
+    border-top: solid 2px #7BD389;
+    border-bottom: solid 2px #7BD389;
+    width: 65%;
+    height: 100%;
+    background-color: #E8F5ED;
+}
+#mainContent p, #mainContent h4, #mainContent h2, #mainContent h3, #mainContent a, #mainContent li{
+    margin: 0;
+    padding: 0;
+}
+#experience{
+    border-top: solid 3px #607466;
+}
+#education{
+    border-top: solid 3px #607466;
+}
+#goals{
+    border-top: solid 3px #607466;
+}
+#expNode{
+    display: flex;
+    flex-direction: column;
+}
