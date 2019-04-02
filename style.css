@@ -111,6 +111,9 @@ a:hover{
 #experience{
     border-top: solid 3px #607466;
 }
+#experience a{
+    font-weight: normal;
+}
 #education{
     border-top: solid 3px #607466;
 }
