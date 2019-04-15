@@ -94,8 +94,15 @@ a:hover{
     width: 60%;
 }
 .java{
+    width: 30%;
+}
+.cSharp{
+    width: 50%;
+}
+.aspNetCore{
     width: 40%;
 }
+
 
 /* beginning of main content */
 #mainContent{
