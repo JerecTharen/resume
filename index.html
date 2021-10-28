@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./style.css">
 
+    <!--
+        FA Icons or other icons to use:
+        <i class="fab fa-angular"></i>
+        <img src="./Icons/nodejs-new-pantone-black.ai" />
+        <img src="c-sharp-c-seeklogo.com.svg" />
+    -->
 </head>
 <body>
 
@@ -14,7 +20,8 @@
             <div id="contactInfo">
                 <div id="topInfo">
                     <h2>Jacob Adam Bennett</h2>
-                    <h3>Web Developer</h3>
+                    <h3>Full Stack Web Developer</h3>
+                    <img class="profilePic" src="./profilePic.jpeg" alt="Profile picture" />
                 </div> <!-- end of top info -->
 
                 <div id="bottomInfo">
@@ -36,31 +43,56 @@
 
                 <div id="hardSkills">
                     <h3>Hard Skills</h3>
-                    <div class="skillBar javascript">
-                        <p>Javascript</p>
-                    </div>
-                    <div class="skillBar ionic">
-                        <p>Ionic</p>
-                    </div>
-                    <div class="skillBar html">
-                        <p>HTML 5</p>
-                    </div>
-                    <div class="skillBar nodejs">
-                        <p>Node JS</p>
-                    </div>
-                    <div class="skillBar css">
-                        <p>CSS 3</p>
-                    </div>
-                    <div class="skillBar cSharp">
+                    <div class="skillBar skill9">
                         <p>C#</p>
                     </div>
-                    <div class="skillBar aspNetCore">
-                        <p>ASP.NET Core</p>
+                    <div class="skillBar skill9">
+                        <p>Javascript</p>
+                    </div>
+                    <div class="skillBar skill8">
+                        <p>.NET (MVC 5, Core, and Web-Pages)</p>
+                    </div>
+                    <div class="skillBar skill7_5">
+                        <p>Angular</p>
+                    </div>
+                    <div class="skillBar skill5">
+                        <p>React</p>
+                    </div>
+                    <div class="skillBar skill6_5">
+                        <p>Ionic</p>
+                    </div>
+                    <div class="skillBar skill8">
+                        <p>HTML 5</p>
+                    </div>
+                    <div class="skillBar skill6">
+                        <p>Node JS</p>
+                    </div>
+                    <div class="skillBar skill8">
+                        <p>CSS 3</p>
                     </div>
                     <div class="skillBar java">
                         <p>Java</p>
                     </div>
                 </div><!-- end of hard skills -->
+
+                <div id="softSkills">
+                    <h3>Soft Skills</h3>
+                    <div class="skillBar skill9">
+                        <p>Collaboration</p>
+                    </div>
+                    <div class="skillBar skill8">
+                        <p>Scrum/Agile</p>
+                    </div>
+                    <div class="skillBar skill9">
+                        <p>TDD</p>
+                    </div>
+                    <div class="skillBar skill6">
+                        <p>CI/CD</p>
+                    </div>
+                    <div class="skillBar skill7_5">
+                        <p>Mentoring</p>
+                    </div>
+                </div><!-- end of soft skills -->
             </div> <!-- end of skills -->
         </div> <!-- end of sidebar -->
 
@@ -68,51 +100,87 @@
         <div id="mainContent">
 
             <ul id="experience">
-                <h3>Project Experience</h3>
-                <li id="expNodeJsLowLevel">
-                    <h4>NodeJS Mastery</h4>
-                    <a target="_blank" href="https://github.com/JerecTharen/PirpleJS">In progress course from Pirple.com</a>
+                <h3>Portfolio Projects</h3>
+                <li id="expAPI" class="columnLinks">
+                    <h4>Plain HTML/CSS/Javascript Applications</h4>
+                    <ul class="subProjList">
+                        <li><a target="_blank" href="http://jacobbennett.me/Project1">Example Business Website</a></li>
+                        <li><a target="_blank" href="http://jacobbennett.me/Project3">Scorecard built from API</a></li>
+                        <li><a target="_blank" href="http://jacobbennett.me/Project2">To-do list app with calendar</a></li>
+                    </ul>
                 </li>
-                <li id="expDotNET">
-                    <h4>.NET Proficiency</h4>
-                    <a target="_blank" href="https://github.com/JerecTharen/Project7ASP/">User Manager with ASP.NET</a>
+                <li id="expNode" class="columnLinks">
+                    <h4>Node JS</h4>
+                    <ul class="subProjList">
+                        <li><a target="_blank" href="https://github.com/JerecTharen/PirpleJS">Work in progress refacotred course from Pirple.com</a></li>
+                        <li><a target="_blank" href="https://github.com/JerecTharen/Project6">Node User Management App</a></li>
+                        <li><a target="_blank" href="https://github.com/JerecTharen/MTECH-Chat-Command">Node Chat App</a></li>
+                    </ul>
                 </li>
-                <li id="expHtml">
-                    <h4>In-Depth HTML-5/CSS-3 Fluency</h4>
-                    <a target="_blank" href="http://jacobbennett.me/Project1">Example Business Website</a>
+                <li id="expReact" class="columnLinks">
+                    <h4>React</h4>
+                    <ul class="subProjList">
+                        <li><a target="_blank" href="http://jacobbennett.me/Project8">E-Commerce App</a></li>
+                        <li><a target="_blank" href="https://github.com/JerecTharen/techmaster8">Work in Progress Text Adventure with ExpressJS back-end</a></li>
+                    </ul>
                 </li>
-                <li id="expJS">
-                    <h4>In-Depth Ecma Script 6 Fluency</h4>
-                    <a target="_blank" href="http://jacobbennett.me/Project2">To-do list app with calendar</a>
+                <li id="expIonic" class="columnLinks">
+                    <h4>Ionic/Angular</h4>
+                    <ul class="subProjList">
+                        <li><a target="_blank" href="https://movieapi-88577.firebaseapp.com/search">Ionic Progressive Web App Built in 3 Person Collaboration</a></li>
+                        <li><a target="_blank" href="https://gold-golf-scorecard.firebaseapp.com/">Scorecard build with Angular</a></li>
+                    </ul>
                 </li>
-                <li id="expIonic">
-                    <h4>In-Depth Ionic Fluency and Collaboration Ability</h4>
-                    <a target="_blank" href="https://movieapi-88577.firebaseapp.com/search">Ionic Progressive Web App Built in 3 Person Collaboration</a>
-                </li>
-                <li id="expAngular">
-                    <h4>Angular Framework Proficiency</h4>
-                    <a target="_blank" href="https://gold-golf-scorecard.firebaseapp.com/">Scorecard build with Angular</a>
-                </li>
-                <li id="expReact">
-                    <h4>React Ability</h4>
-                    <a target="_blank" href="http://jacobbennett.me/Project8">E-Commerce App</a>
-                </li>
-                <li id="expAPI">
-                    <h4>API Interaction Proficiency</h4>
-                    <a target="_blank" href="http://jacobbennett.me/Project3">Scorecard built from API</a>
-                </li>
-                <li id="expNode">
-                    <h4>Node Lesser Fluency</h4>
-                    <a target="_blank" href="https://github.com/JerecTharen/Project6">Node User Management App</a>
-                    <a target="_blank" href="https://github.com/JerecTharen/MTECH-Chat-Command">Node Chat App</a>
+                <li id="expDotNET" class="columnLinks">
+                    <h4>.NET/C#</h4>
+                    <ul class="subProjList">
+                        <li><a target="_blank" href="https://github.com/JerecTharen/VidReleaserMeme">Work in Progress - Silly Video Randomization Application</a></li>
+                        <li><a target="_blank" href="https://github.com/JerecTharen/Project7ASP/">User Manager with ASP.NET</a></li>
+                    </ul>
                 </li>
                 <li id="expJava">
-                    <h4>Java Ability</h4>
-                    <a target="_blank" href="https://github.com/JerecTharen/JavaAdventure">Java Text Adventure Game</a>
+                    <h4>Java</h4>
+                    <ul class="subProjList">
+                        <li><a target="_blank" href="https://github.com/JerecTharen/JavaAdventure">Work in Progress Java Text Adventure Game</a></li>
+                    </ul>
                 </li>
             </ul> <!-- end of experience -->
 
-            <div id="education">
+            <div id="workExperience" class="topSep">
+                <h3>Work Experience</h3>
+                <ul class="workList">
+                    <li>
+                        <h4>Associate Web Devloper - Paul Consulting Group - 2 years</h4>
+                        <ul class="jobDescList">
+                            <li>.NET MVC 5 Enterprise Financial Application</li>
+                            <li>C#</li>
+                            <li>Microsfot SQL Server</li>
+                            <li>Convert Visual Foxpro application</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Developer 1 - Paul Consulting Group - 6 months</h4>
+                        <ul class="jobDescList">
+                            <li>.NET Core Pharmaceutical Inventory System</li>
+                            <li>C#</li>
+                            <li>Angular</li>
+                            <li>Microsoft SQL Server</li>
+                            <li>Maintain and Covert legacy ASP.NET Webforms system (VB/C#)</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Temporary Scrum Coach - Paul Consulting Group - 6 Months</h4>
+                        <ul class="jobDescList">
+                            <li>Preside over Scrum Ceremonies (Daily stand-up, planning, review, retrospective)</li>
+                            <li>Assist the Product Owner with maintaining the backlog and client relationships</li>
+                            <li>Manage team relationships</li>
+                            <li>Protect the team/sprint from interruptions</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- end of work experience -->
+
+            <div id="education" class="topSep">
                 <h3>Education</h3>
                 <ul>
                     <li>Mountainland Technical College Web Programming and Development Graduation May 2019</li>
@@ -120,6 +188,7 @@
                     <li>High School Diploma from Alpine School district: 2013</li>
                 </ul>
             </div><!-- end of education -->
+
         </div> <!-- end of main content -->
     </div> <!-- end of contains all -->
 
