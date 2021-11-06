@@ -89,14 +89,17 @@ a:hover{
 .css, .skill6{
     width: 60%;
 }
-.java, .skill3{
-    width: 30%;
-}
 .cSharp, .skill5{
     width: 50%;
 }
 .aspNetCore, .skil4{
     width: 40%;
+}
+.java, .skill3{
+    width: 30%;
+}
+.skill2{
+    width: 20%;
 }
 .profilePic{
     border-radius: 50%;
